@@ -145,7 +145,7 @@ ul li a:hover{
   top: 10vh;
   left: 700px;
   border-radius: 10px;
-  /* padding: 25px; */
+  text-align: center;
 }
 .form h2{
   width: 17vw;
@@ -195,8 +195,27 @@ ul li a:hover{
   background: #fff;
   color: greenyellow;
 }
-btnn a{
+.btnn a{
   text-decoration: none;
   color: #000;
   font-weight: bold;
+}
+.form .link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  padding-top: 20px;
+  text-align: center;
+}
+.form .link a{
+  text-decoration: none;
+  color: greenyellow;
+}
+.icon a{
+  text-decoration: none;
+  color: #fff;
+}
+.fa-brands{
+  color: red;
+  font-size: 5rem;
+  
 }
