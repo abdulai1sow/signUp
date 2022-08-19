@@ -78,7 +78,7 @@ ul li a:hover{
 .btn{
   width: 100px;
   height: 40px;
-  background: greenyellow;
+  background-color: greenyellow;
   border: 2px solid greenyellow;
   margin-top: 13px;
   color: #fff;
@@ -122,7 +122,7 @@ ul li a:hover{
   margin-left: 20px;
   font-size: 18px;
   border-radius: 10px;
-  curser: pointer;
+  cursor: pointer;
 }
 .content .cn a{
   text-decoration: none;
@@ -139,7 +139,7 @@ ul li a:hover{
 }
 .form{
   width: 35vw;
-  height:78vh;
+  height:83vh;
   background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
   position: absolute;
   top: 10vh;
@@ -174,7 +174,7 @@ ul li a:hover{
   font-family: sans-serif;
 }
 .form input:focus{
-  ouline: none;
+  outline: none;
 }
 ::placeholder{
   color: #fff;
@@ -210,12 +210,17 @@ ul li a:hover{
   text-decoration: none;
   color: greenyellow;
 }
-.icon a{
+.icons a{
   text-decoration: none;
   color: #fff;
 }
-.fa-brands{
-  color: red;
-  font-size: 5rem;
-  
+.icons ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3 ease;
+}
+.icons ion-icons:hover{
+  color: greenyellow;
 }
